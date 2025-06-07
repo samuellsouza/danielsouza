@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Care | Daniel Souza - Técnico em Enfermagem</title>
+    <meta name="description" content="Serviços de enfermagem domiciliar com Daniel Souza, Técnico em Enfermagem. Plantões, higiene, curativos, administração de medicamentos e mais.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="logo-text">Daniel<span class="text-primary"> Souza</span></span>
+                    
+                </a>
+                <span> | Home Care</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/depoimentos.html">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="ms-lg-3">
+                        <a href="https://wa.me/5575981973774" class="btn btn-primary rounded-pill" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i>Agendar Consulta
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="display-4 fw-bold mb-4">Cuidados de Enfermagem Profissionais no Conforto do Seu Lar</h1>
+                    <p class="lead mb-4">Serviços personalizados de enfermagem domiciliar com Daniel Souza, Técnico em Enfermagem qualificado e experiente.</p>
+                    <div class="hero-buttons">
+                        <a href="pages/contato.html" class="btn btn-primary btn-lg rounded-pill me-3 mb-3 mb-lg-0">
+                            Agende uma Avaliação
+                        </a>
+                        <a href="pages/servicos.html" class="btn btn-outline-primary btn-light rounded-pill py-8">
+                            Conheça Nossos Serviços
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image">
+                        <img src="images/hero-image.jpg" alt="Enfermagem domiciliar" class="img-fluid rounded-4 shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,186.7C384,181,480,139,576,138.7C672,139,768,181,864,181.3C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>-->
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Por que escolher nossos serviços?</h2>
+                <p class="section-subtitle">Cuidados personalizados com profissionalismo e dedicação</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-user-nurse"></i>
+                        </div>
+                        <h3 class="feature-title h5">Atendimento Humanizado</h3>
+                        <p class="feature-text">Cuidados com empatia, respeito e atenção às necessidades individuais de cada paciente.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="feature-title h5">Profissional Qualificado</h3>
+                        <p class="feature-text">Técnico em Enfermagem com formação completa e experiência comprovada em cuidados domiciliares.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="feature-title h5">Conforto Familiar</h3>
+                        <p class="feature-text">Recuperação e tratamento no ambiente familiar, proporcionando bem-estar e tranquilidade.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="feature-title h5">Acompanhamento Contínuo</h3>
+                        <p class="feature-text">Monitoramento constante e adaptação do plano de cuidados conforme a evolução do paciente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Cuidados especializados para diversas necessidades</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3 class="service-title">Plantões</h3>
+                        <p class="service-text">Acompanhamento contínuo por períodos determinados, garantindo monitoramento constante e administração de medicamentos nos horários corretos.</p>
+                        <a href="pages/servicos.html#plantoes" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-shower"></i>
+                        </div>
+                        <h3 class="service-title">Higiene</h3>
+                        <p class="service-text">Cuidados completos de higiene pessoal, incluindo banho no leito ou com auxílio, cuidados com a pele e higiene oral.</p>
+                        <a href="pages/servicos.html#higiene" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-band-aid"></i>
+                        </div>
+                        <h3 class="service-title">Curativos</h3>
+                        <p class="service-text">Realização de curativos simples e complexos, com acompanhamento da evolução de feridas e orientações para cuidados preventivos.</p>
+                        <a href="pages/servicos.html#curativos" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3 class="service-title">Administração de Medicamentos</h3>
+                        <p class="service-text">Administração segura de medicamentos por diversas vias, com controle rigoroso de horários e dosagens conforme prescrição médica.</p>
+                        <a href="pages/servicos.html#medicamentos" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3 class="service-title">Acompanhamento em Viagens</h3>
+                        <p class="service-text">Suporte profissional durante deslocamentos para consultas, exames ou viagens, garantindo a continuidade dos cuidados.</p>
+                        <a href="pages/servicos.html#viagens" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-house-medical"></i>
+                        </div>
+                        <h3 class="service-title">Atendimento em Domicílio</h3>
+                        <p class="service-text">Visitas programadas ou sob demanda para avaliação, orientações e elaboração de relatórios de acompanhamento.</p>
+                        <a href="pages/servicos.html#domicilio" class="service-link">Saiba mais <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="pages/servicos.html" class="btn btn-primary btn-lg rounded-pill">
+                    Ver Todos os Serviços
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image position-relative">
+                        <img src="images/daniel-souza.jpeg" alt="Daniel Souza - Técnico em Enfermagem" class="img-fluid rounded-4 shadow">
+                        <div class="experience-badge">
+                            <span class="exp-years">5+</span>
+                            <span class="exp-text">Anos de Experiência</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-header mb-4">
+                        <h2 class="section-title">Sobre Daniel Souza</h2>
+                        <p class="section-subtitle">Técnico em Enfermagem dedicado ao seu bem-estar</p>
+                    </div>
+                    <p class="about-text">Daniel Souza é um Técnico em Enfermagem qualificado e experiente, especializado em cuidados domiciliares. Com formação completa e constante atualização, oferece serviços de enfermagem de alta qualidade no conforto do lar dos pacientes.</p>
+                    <p class="about-text">Sua abordagem humanizada e atenciosa garante não apenas o cuidado técnico necessário, mas também o suporte emocional fundamental para o processo de recuperação e bem-estar dos pacientes.</p>
+                    
+                    <div class="about-features mt-4">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="about-feature d-flex align-items-center">
+                                    <div class="feature-check me-2">
+                                        <i class="fas fa-check-circle text-primary"></i>
+                                    </div>
+                                    <span>Formação técnica completa</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="about-feature d-flex align-items-center">
+                                    <div class="feature-check me-2">
+                                        <i class="fas fa-check-circle text-primary"></i>
+                                    </div>
+                                    <span>Atualização constante</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="about-feature d-flex align-items-center">
+                                    <div class="feature-check me-2">
+                                        <i class="fas fa-check-circle text-primary"></i>
+                                    </div>
+                                    <span>Experiência comprovada</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="about-feature d-flex align-items-center">
+                                    <div class="feature-check me-2">
+                                        <i class="fas fa-check-circle text-primary"></i>
+                                    </div>
+                                    <span>Atendimento humanizado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="pages/sobre.html" class="btn btn-primary rounded-pill mt-4">
+                        Conheça mais sobre mim
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Depoimentos</h2>
+                <p class="section-subtitle">O que nossos clientes dizem sobre nossos serviços</p>
+            </div>
+            
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card h-100">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"O cuidado e a atenção que Daniel ofereceu à minha mãe foram excepcionais. Sua dedicação e profissionalismo fizeram toda a diferença na recuperação dela após a cirurgia."</p>
+                            <div class="testimonial-author d-flex align-items-center mt-3">
+                                <div class="author-avatar me-3">
+                                    <img src="images/testimonial-1.jpg" alt="Mariana Silva" class="rounded-circle">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name h6 mb-1">Mariana Silva</h4>
+                                    <p class="author-relation mb-0">Filha de paciente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card h-100">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Contratar o Daniel para cuidar do meu pai foi a melhor decisão que tomamos. Ele é extremamente competente, pontual e carinhoso. Meu pai se sente muito confortável com ele."</p>
+                            <div class="testimonial-author d-flex align-items-center mt-3">
+                                <div class="author-avatar me-3">
+                                    <img src="images/testimonial-2.jpg" alt="Carlos Oliveira" class="rounded-circle">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name h6 mb-1">Carlos Oliveira</h4>
+                                    <p class="author-relation mb-0">Filho de paciente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card h-100">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Como idosa que vive sozinha, os serviços do Daniel me trouxeram segurança e tranquilidade. Ele é muito atencioso, explica tudo com paciência e me ajuda a seguir corretamente meu tratamento."</p>
+                            <div class="testimonial-author d-flex align-items-center mt-3">
+                                <div class="author-avatar me-3">
+                                    <img src="images/testimonial-3.jpg" alt="Ana Ferreira" class="rounded-circle">
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name h6 mb-1">Ana Ferreira</h4>
+                                    <p class="author-relation mb-0">Paciente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="pages/depoimentos.html" class="btn btn-outline-primary rounded-pill">
+                    Ver Mais Depoimentos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="cta-content text-center p-5 rounded-4" data-aos="fade-up">
+                <h2 class="cta-title mb-4">Precisa de cuidados de enfermagem domiciliar?</h2>
+                <p class="cta-text mb-4">Entre em contato hoje mesmo para agendar uma avaliação personalizada e conhecer como nossos serviços podem ajudar você ou seu familiar.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5575981973774" class="btn btn-light btn-lg rounded-pill me-3 mb-3 mb-md-0" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>Fale pelo WhatsApp
+                    </a>
+                    <a href="pages/contato.html" class="btn btn-outline-light btn-lg rounded-pill">
+                        Entre em Contato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="section-header mb-4">
+                        <h2 class="section-title">Entre em Contato</h2>
+                        <p class="section-subtitle">Estamos prontos para atender você</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="h6 mb-1">Telefone/WhatsApp</h4>
+                                <p class="mb-0"><a href="tel:+5575981973774">(75) 9 8197-3774</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="h6 mb-1">E-mail</h4>
+                                <p class="mb-0"><a href="mailto:danielsouza9419@gmail.com">danielsouza9419@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="h6 mb-1">Área de Atendimento</h4>
+                                <p class="mb-0">Atendimento em toda a região</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center">
+                            <div class="contact-icon me-3">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="h6 mb-1">Horário de Atendimento</h4>
+                                <p class="mb-0">Disponível 24 horas, 7 dias por semana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contact-form p-4 rounded-4 shadow-sm">
+                        <h3 class="form-title h4 mb-4">Envie uma mensagem</h3>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nome completo</label>
+                                <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Seu telefone" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Assunto</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Assunto da mensagem" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100 rounded-pill">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-info">
+                        <h3 class="footer-logo mb-3">Daniel<span class="text-primary">Souza</span></h3>
+                        <p class="footer-desc mb-3">Serviços de enfermagem domiciliar com profissionalismo, dedicação e cuidado humanizado.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/5575981973774" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="pages/sobre.html">Sobre</a></li>
+                        <li><a href="pages/servicos.html">Serviços</a></li>
+                        <li><a href="pages/depoimentos.html">Depoimentos</a></li>
+                        <li><a href="pages/blog.html">Blog</a></li>
+                        <li><a href="pages/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
+                    <h4 class="footer-title">Nossos Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/servicos.html#plantoes">Plantões</a></li>
+                        <li><a href="pages/servicos.html#higiene">Higiene</a></li>
+                        <li><a href="pages/servicos.html#curativos">Curativos</a></li>
+                        <li><a href="pages/servicos.html#medicamentos">Administração de Medicamentos</a></li>
+                        <li><a href="pages/servicos.html#viagens">Acompanhamento em Viagens</a></li>
+                        <li><a href="pages/servicos.html#domicilio">Atendimento em Domicílio</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 col-lg-3">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <a href="tel:+5575981973774">(75) 9 8197-3774</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope me-2"></i>
+                            <a href="mailto:danielsouza9419@gmail.com">danielsouza9419@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            Atendimento em toda a região
+                        </li>
+                        <li>
+                            <i class="fas fa-clock me-2"></i>
+                            Disponível 24 horas, 7 dias por semana
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom py-3 mt-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2025 Home Care - Daniel Souza. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                        <p class="mb-0">Desenvolvido com <i class="fas fa-heart text-danger"></i> por Manus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5575981973774" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
