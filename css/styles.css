@@ -63,6 +63,10 @@ a:hover {
     text-decoration: none;
 }
 
+strong {
+    color: var(--primary-color);
+}
+
 .section-title {
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -83,6 +87,7 @@ a:hover {
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
+
 
 .btn {
     font-family: var(--font-primary);
@@ -164,6 +169,10 @@ a:hover {
     box-shadow: none;
 }
 
+.box {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -199,7 +208,10 @@ a:hover {
 } 
 
 .hero-buttons .btn {
+    display: flex;
+    width: 300px;
     padding: 0.75rem 2rem;
+    margin: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -303,6 +315,10 @@ a:hover {
     color: var(--secondary-color);
 }
 
+#daniel {
+    padding-top: 50px;
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -318,7 +334,7 @@ a:hover {
 .experience-badge {
     position: absolute;
     bottom: 30px;
-    right: -20px;
+    right: -10px;
     background-color: var(--secondary-color);
     color: var(--light-color);
     padding: 1rem;
