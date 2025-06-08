@@ -59,6 +59,10 @@ a {
     transition: var(--transition);
 }
 
+footer a {
+    font-weight: bold;
+}
+
 a:hover {
     color: var(--secondary-color);
     text-decoration: none;
