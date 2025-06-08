@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6,
     color: var(--primary-color);
 }
 
+.col-lg-6 p {
+    text-align: justify;
+}
+
 a {
     color: var(--primary-color);
     text-decoration: none;
