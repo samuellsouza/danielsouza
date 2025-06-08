@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Souza - Curriculum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .print-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+                background: white;
+                color: black;
+            }
+
+            .section-container {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header with Print Button -->
+    <!--<div class="no-print print-button-container fixed top-4 right-4 z-10">
+        <button onclick="window.print()"
+            class="print-button bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full shadow-md transition-all duration-300 flex items-center">
+            <i class="fas fa-print mr-2"></i> Print CV
+        </button>
+    </div>-->
+
+    <!-- Main Container -->
+    <div class="container mx-auto max-w-4xl px-4 py-8 md:py-12">
+        <!-- Profile Section -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+            <div class="md:flex">
+                <div class="md:w-1/3 bg-blue-600 p-6 flex flex-col items-center justify-center text-white">
+                    <div
+                        class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-xl mb-4">
+                        <!-- Placeholder for profile image - replace with actual image -->
+                        <img src="/images/foto-1.jpeg" alt="foto de perfil">
+                    </div>
+                    <h1 class="text-xl md:text-2xl font-bold mb-1 text-center">Daniel Conceição de Souza</h1>
+                    <p class="text-blue-100 text-center">Técnico de Enfermagem</p>
+                </div>
+                <div class="md:w-2/3 p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-gray-600">Endereço</h3>
+                                <p>Rua Alicia Borges de Cerqueira, 421<br>Santo Estevão - BA, 44190-000</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-gray-600">Telefone</h3>
+                                <p>(75) 98197-3774</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-gray-600">Email</h3>
+                                <p>danielsouza9419@gmail.com</p>
+                            </div>
+                        </div>
+                        <!--<div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-gray-600">Pessoal</h3>
+                                <p>31 Anos, Casado</p>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Objective Section -->
+        <div class="section-container bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                <i class="fas fa-bullseye mr-2"></i> Objetivo
+            </h2>
+            <p class="text-gray-700">
+                Meu principal objetivo é desempenhar as funções do meu cargo com excelência, aplicando minhas
+                habilidades adquiridas e me dedicando ao desenvolvimento de novas competências que contribuam para o
+                crescimento da equipe e para os resultados da organização.
+            </p>
+        </div>
+
+        <div class="section-container bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h2>
+                <i class="fas fa-user-circle mr-2"></i> Sobre Daniel Souza</h2>
+                <p class="text-blue-600 text-sm border-b-2 border-blue-100">Técnico em Enfermagem dedicado ao seu bem-estar</p>
+                
+
+
+            <p class="text-gray-700 pt-5">Daniel Souza é um Técnico em Enfermagem qualificado e experiente,
+                especializado em cuidados domiciliares. Com formação completa e constante atualização, oferece
+                serviços de enfermagem de alta qualidade no conforto do lar dos pacientes.</p>
+
+            <p class="text-gray-700">Sua abordagem humanizada e atenciosa garante não apenas o cuidado técnico
+                necessário, mas também o suporte emocional fundamental para o processo de recuperação e
+                bem-estar dos pacientes.</p>
+        </div>
+
+        <!-- Education and Skills - Side by Side -->
+        <div class="md:flex md:space-x-8">
+            <!-- Education -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <div class="section-container bg-white rounded-xl shadow-lg p-6 h-full">
+                    <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                        <i class="fas fa-graduation-cap mr-2"></i> Formação Acadêmica
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Ensino médio completo</h3>
+                        </div>
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Técnico de Enfermagem</h3>
+                            <p class="text-gray-600 text-sm">Escola técnica de enfermagem Diamantina Santo Estevão</p>
+                            <p class="text-blue-600 text-sm">Conclusão 02/2025</p>
+                        </div>
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Auxiliar de instrumentação cirúrgica</h3>
+                            <p class="text-blue-600 text-sm">Carga horária: 360 horas</p>
+                        </div>
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Ciências mortuárias</h3>
+                            <p class="text-blue-600 text-sm">Carga horária: 250 horas</p>
+                        </div>
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Terapeuta de dependentes químicos e codependentes</h3>
+                            <p class="text-blue-600 text-sm">Carga horária: 1.200h</p>
+                        </div>
+                        <div class="pl-4 border-l-4 border-blue-200">
+                            <h3 class="font-semibold">Agente de segurança escolar</h3>
+                            <p class="text-blue-600 text-sm">Carga horária: 180 horas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="md:w-1/2">
+                <div class="section-container bg-white rounded-xl shadow-lg p-6 h-full">
+                    <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                        <i class="fas fa-tools mr-2"></i> Qualificações
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-semibold">Informática avançada</h3>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-1">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Campo Ferramentas Google</h3>
+                            <p class="text-blue-600 text-sm">40 horas</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Designer de qualidade social mídia</h3>
+                            <p class="text-blue-600 text-sm">20 horas</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Cuidador de idosos</h3>
+                            <p class="text-blue-600 text-sm">240 horas</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Bacharel em teologia</h3>
+                            <p class="text-blue-600 text-sm">ITGE Instituto de teologia e Extensão gênesis - Concluído
+                                em 18/06/2022</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Assistência Social e Reabilitação com Dependentes Químicos</h3>
+                            <p class="text-blue-600 text-sm">280 horas - Concluído em 01/10/2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section-container bg-white rounded-xl shadow-lg p-6 mt-8">
+            <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                <i class="fas fa-briefcase mr-2"></i> Experiência Profissional
+            </h2>
+            <div class="space-y-4">
+                <div class="pl-4 border-l-4 border-blue-200">
+                    <h3 class="font-semibold text-lg">Dass Nordeste Calçados e Artigos Esportivos Ltda.</h3>
+                    <p class="text-gray-600">Tempo: 9 anos</p>
+                </div>
+                <div class="pl-4 border-l-4 border-blue-200">
+                    <h3 class="font-semibold text-lg">Instituto Bambu</h3>
+                    <p class="text-gray-600">Tempo: 3 anos</p>
+                </div>
+                <div class="pl-4 border-l-4 border-blue-200">
+                    <h3 class="font-semibold text-lg">Clínica Dr. Antenor</h3>
+                    <p class="text-gray-600">Estágio - 1 ano</p>
+                </div>
+                <div class="pl-4 border-l-4 border-blue-200">
+                    <h3 class="font-semibold text-lg">Agente de segurança escolar</h3>
+                    <p class="text-gray-600"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Sections -->
+        <div class="md:flex md:space-x-8 mt-8">
+            <!-- Additional Info -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <div class="section-container bg-white rounded-xl shadow-lg p-6 h-full">
+                    <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                        <i class="fas fa-certificate mr-2"></i> Certificações
+                    </h2>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span>Curso aprendendo Photoshop</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span>Capelania Eclesiástica – Capelão</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <span>Designer de qualidade social mídia e impressões</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="md:w-1/2">
+                <div class="section-container bg-white rounded-xl shadow-lg p-6 h-full">
+                    <h2 class="text-xl font-bold mb-4 text-blue-600 border-b-2 border-blue-100 pb-2 flex items-center">
+                        <i class="fas fa-language mr-2"></i> Idiomas
+                    </h2>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Português</span>
+                                <span class="text-sm text-blue-600">Nativo</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium">Inglês</span>
+                                <span class="text-sm text-blue-600">Básico</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 30%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="mt-8 text-center text-gray-500 text-sm">
+                <p>Atualizado em <span id="currentDate"></span></p>
+            </div>
+            <div class="footer-bottom py-3 mt-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2025 Daniel Souza - Home Care. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                        <p class="mb-0">Desenvolvido By por <a href="https://samuelsouza.vercel.app/">Samuel Souza</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Set current date
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('currentDate').textContent = now.toLocaleDateString('pt-BR', options);
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
